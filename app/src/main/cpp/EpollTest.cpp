@@ -42,7 +42,7 @@ Java_com_yan_nativeepoll_EpollTest_init(JNIEnv *env, jobject thiz) {
 
     // epoll实例
     epoll_fd = epoll_create(1);
-    struct epoll_event event;
+    epoll_event event{};
     memset(&event, 0, sizeof(epoll_event));
     //epoll的触发模式分为两种：水平触发和边缘触发。水平触发的意思是只要被监听的fd中存在数据，epoll_wait就一直返回，
     // 只有将fd中的数据读出，才会再次阻塞，等待下次写入再唤醒。边缘触发是只有向fd中写入数据，才会触发epoll_wait返回，
@@ -61,11 +61,9 @@ Java_com_yan_nativeepoll_EpollTest_await(JNIEnv *env, jobject thiz, jlong timeou
     struct epoll_event events[1];
     // timeout 超时时间，到了会唤醒
     int event_count = epoll_wait(epoll_fd, events, 1, timeout);
-    if (events[0].data.fd == efd) {
-        if (events[0].events == EPOLLIN) {
-            uint64_t val;
-            read(efd, &val, sizeof(uint64_t));
-        }
+    if (events[0].data.fd == efd || events[0].events == EPOLLIN) {
+        uint64_t val;
+        read(efd, &val, sizeof(uint64_t));
     }
 }
 
