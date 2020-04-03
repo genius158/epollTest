@@ -1,0 +1,43 @@
+{
+  "stringTable": {
+    "0": "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Depoll_test_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/yanxianwei/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/CMakeLists.txt",
+    "/Users/yanxianwei/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/yanxianwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/yanxianwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "epoll_test-Release-x86": {
+      "buildCommand": "/Users/yanxianwei/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/.cxx/cmake/release/x86\" epoll_test",
+      "buildType": "release",
+      "toolchain": "3492979984",
+      "abi": "x86",
+      "artifactName": "epoll_test",
+      "files": [
+        {
+          "src": "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/src/main/cpp/EpollTest.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/build/intermediates/cmake/release/obj/x86/libepoll_test.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "3492979984": {
+      "cppCompilerExecutable": "/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,19 @@
+# ninja log v5
+1	1018	1585901771	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+1019	1067	1585901771	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+1	756	1585901841	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+756	809	1585901841	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+2	822	1585903091	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+822	881	1585903091	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+1	837	1585907136	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+837	891	1585907136	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+1	792	1585907895	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+792	850	1585907895	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+2	821	1585907951	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+822	870	1585907951	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+1	796	1585907976	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+796	855	1585907976	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+1	534	1585907993	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+535	584	1585907994	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001
+2	840	1585908088	CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o	3d231c044840dc99
+840	1006	1585908088	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libepoll_test.so	f948d390cc150001

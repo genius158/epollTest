@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/.cxx/cmake/debug/x86_64",
+  "command": "/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Depoll_test_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o -c /Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/src/main/cpp/EpollTest.cpp",
+  "file": "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/src/main/cpp/EpollTest.cpp"
+}
+]

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/yanxianwei/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Depoll_test_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/epoll_test.dir/src/main/cpp/EpollTest.cpp.o -c /Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/src/main/cpp/EpollTest.cpp",
+  "file": "/Users/yanxianwei/AndroidStudioProjects/NativeEpoll/app/src/main/cpp/EpollTest.cpp"
+}
+]
